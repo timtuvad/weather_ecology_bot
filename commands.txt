@@ -1,0 +1,6 @@
+start - Запуск бота/Launch the bot
+lang - Выбор языка/Choose the language
+ru - Установить русский язык
+en - Change English language
+fact - Показать интересный факт/Show an intresting fact
+help - Показать список доступных команд/Show a list of commands
