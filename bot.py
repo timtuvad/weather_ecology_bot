@@ -74,23 +74,22 @@ facts_en = [
 'Commonwealth Bay, Antarctica is the windiest place on Earth with winds of 200mph been recorded',
 ]
 
-countries = {
-'ru': ('Россия', 'Russia', '🇷🇺'),
-'by': ('Белоруссия', 'Belarus', '🇧🇾'),
-'kz': ('Казахстан', 'Kazakhstan', '🇰🇿'),
-'kg': ('Киргизия', 'Kyrgyzstan', '🇰🇬'),
-'tj': ('Таджикистан', 'Tajikistan', '🇹🇯'),
-'am': ('Армения', 'Armenia', '🇦🇲'),
-}
+countries_ru = {'AU': 'Австралия', 'MG': 'Мадагаскар', 'AT': 'Австрия', 'MW': 'Малави', 'AZ': 'Азербайджан', 'MY': 'Малайзия', 'AL': 'Албания', 'ML': 'Мали', 'DZ': 'Алжир', 'UM': 'Мал. Тихоок. О-Ва', 'AI': 'Ангилья', 'MV': 'Мальдивы', 'AO': 'Ангола', 'MT': 'Мальта', 'AD': 'Андорра', 'MP': 'Марианские О-Ва', 'AQ': 'Антарктика', 'MA': 'Марокко', 'AG': 'Антигуа.Барб', 'MQ': 'Мартиника', 'MH': 'Маршалловы О-Ва', 'MO': 'Аомынь (Макао)', 'MX': 'Мексика', 'AR': 'Аргентина', 'FM': 'Микронезия', 'AM': 'Армения', 'MZ': 'Мозамбик', 'AW': 'Аруба', 'MD': 'Молдова', 'AF': 'Афганистан', 'MC': 'Монако', 'BS': 'Багамские О-Ва', 'MN': 'Монголия', 'BD': 'Бангладеш', 'MS': 'Монтсеррат', 'BB': 'Барбадос', 'MM': 'Мьянма', 'BH': 'Бахрейн', 'NA': 'Намибия', 'BZ': 'Белиз', 'NR': 'Науру', 'BY': 'Беларусь', 'NP': 'Непал', 'BE': 'Бельгия', 'NE': 'Нигер', 'BJ': 'Бенин', 'NG': 'Нигерия', 'BM': 'Бермудские О-Ва', 'NL': 'Нидерланды', 'BG': 'Болгария', 'NI': 'Никарагуа', 'BO': 'Боливия', 'NU': 'Ниуэ', 'BW': 'Ботсвана', 'NZ': 'Новая Зеландия', 'BR': 'Бразилия', 'NC': 'Нов. Каледония', 'IO': 'Брит. Тер. В Инд. Ок', 'NO': 'Норвегия', 'BN': 'Бруней', 'NF': 'Норфолк', 'BV': 'Буве', 'AE': 'Объед. Араб. Эмират', 'BF': 'Буркина-Фасо', 'OM': 'Оман', 'BI': 'Бурунди', 'CK': 'О-Ва Кука', 'BT': 'Бутан', 'VU': 'Вануату', 'IM': 'О-В Мэн', 'VA': 'Ватикан', 'CX': 'О-В Рождества', 'GB': 'Великобритания', 'SH': 'О-В Святой Елены', 'HU': 'Венгрия', 'VE': 'Венесуэла', 'PK': 'Пакистан', 'VI': 'Виргин. О-Ва (Сша)', 'PW': 'Палау', 'VG': 'Виргин. О-Ва (Брит.)', 'PA': 'Панама', 'AS': 'Вост. Самоа. (Сша)', 'PG': 'Папуа-Новая Гвинея', 'PY': 'Парагвай', 'VN': 'Вьетнам', 'PE': 'Перу', 'GA': 'Габон', 'PN': 'Питкэрн', 'HT': 'Гаити', 'PL': 'Польша', 'GY': 'Гайана', 'PT': 'Португалия', 'GM': 'Гамбия', 'PR': 'Пуэрто-Рико', 'GH': 'Гана', 'GP': 'Гваделупа', 'RE': 'Реюньон', 'GT': 'Гватемала', 'RU': 'Россия', 'GF': 'Гвиана', 'RW': 'Руанда', 'GN': 'Гвинея', 'RO': 'Румыния', 'GW': 'Гвинея-Бисау', 'SV': 'Сальвадор', 'DE': 'Германия', 'SM': 'Сан-Марино', 'GI': 'Гибралтар', 'ST': 'Сан-Томе И Принс.', 'HN': 'Гондурас', 'SA': 'Саудовская Аравия', 'GD': 'Гренада', 'SZ': 'Свазиленд', 'GL': 'Гренландия', 'SC': 'Сейшельские О-Ва', 'GR': 'Греция', 'PM': 'С.-Пьер И Микелон', 'GE': 'Грузия', 'SN': 'Сенегал', 'GU': 'Гуам', 'VC': 'С. Винсент. Гренад.', 'DK': 'Дания', 'KN': 'Сент-Китс И Невис', 'DJ': 'Джибути', 'LC': 'Сент-Люсия', 'SG': 'Сингапур', 'DM': 'Доминика', 'SY': 'Сирия', 'DO': 'Доминиканск. Респ.', 'SK': 'Словакия', 'EG': 'Египет', 'SB': 'Соломоновы О-Ва', 'SO': 'Сомали', 'ZM': 'Замбия', 'SD': 'Судан', 'EH': 'Западная Сахара', 'SR': 'Суринам', 'WS': 'Западное Самоа', 'SL': 'Сьерра-Леоне', 'ZW': 'Зимбабве', 'US': 'Сша', 'IL': 'Израиль', 'HK': 'Сянган (Гонконг)', 'IN': 'Индия', 'TJ': 'Таджикистан', 'ID': 'Индонезия', 'TH': 'Таиланд', 'JO': 'Иордания', 'TW': 'Тайвань', 'IQ': 'Ирак', 'TZ': 'Танзания', 'IR': 'Иран', 'TC': 'Теркс И Кайкос', 'IE': 'Ирландия', 'TG': 'Того', 'IS': 'Исландия', 'TK': 'Токелау (Юнион)', 'ES': 'Испания', 'TO': 'Тонга', 'IT': 'Италия', 'YE': 'Йемен', 'TV': 'Тувалу', 'CV': 'Кабо-Верде', 'TN': 'Тунис', 'KZ': 'Казахстан', 'TM': 'Туркменистан', 'KY': 'Кайман', 'KH': 'Камбоджа', 'UG': 'Уганда', 'CM': 'Камерун', 'UZ': 'Узбекистан', 'CA': 'Канада', 'UA': 'Украина', 'QA': 'Катар', 'WF': 'Уоллис И Футуна', 'KE': 'Кения', 'UY': 'Уругвай', 'CY': 'Кипр', 'FO': 'Фарерские О-Ва', 'KI': 'Кирибати', 'FJ': 'Фиджи', 'CN': 'Китай', 'PH': 'Филиппины', 'CC': 'Кокосовые О-Ва', 'FI': 'Финляндия', 'CO': 'Колумбия', 'FK': 'Фолклендские О-Ва', 'KM': 'Коморские О-Ва', 'FR': 'Франция', 'CG': 'Конго', 'PF': 'Фр. Полинезия', 'KP': 'Корея (Кндр)', 'TF': 'Фр. Южные Территор.', 'KR': 'Корея Респ.', 'HM': 'Херд И Макдональд', 'CR': 'Коста-Рика', 'CF': 'Центр. Афр. Республ', 'CI': "Кот-Д'Ивуар", 'CU': 'Куба', 'CZ': 'Чешская Республика', 'KW': 'Кувейт', 'CL': 'Чили', 'KG': 'Кыргызстан', 'CH': 'Швейцария', 'LA': 'Лаос', 'SE': 'Швеция', 'LV': 'Латвия', 'SJ': 'Шпицберген И Ян-Майе', 'LT': 'Литва', 'LK': 'Шри-Ланка', 'LS': 'Лесото', 'EC': 'Эквадор', 'LR': 'Либерия', 'GQ': 'Экватор. Гвинея', 'LB': 'Ливан', 'EE': 'Эстония', 'LY': 'Ливия', 'ET': 'Эфиопия', 'LI': 'Лихтенштейн', 'LU': 'Люксембург', 'ZA': 'Южно-Афр. Респуб.', 'MU': 'Маврикий', 'JM': 'Ямайка', 'MR': 'Мавритания', 'JP': 'Япония', 'TR': 'Турция', 'TD': 'Чад', 'TT': 'Тринидад И Тобаго'}
+countries_en = {'AF': 'Afghanistan', 'AL': 'Albania', 'DZ': 'Algeria', 'AS': 'American Samoa', 'AD': 'Andorra', 'AO': 'Angola', 'AI': 'Anguilla', 'AQ': 'Antarctica', 'AG': 'Antigua and Barbuda', 'AR': 'Argentina', 'AM': 'Armenia', 'AW': 'Aruba', 'AU': 'Australia', 'AT': 'Austria', 'AZ': 'Azerbaijan', 'BS': 'Bahamas', 'BH': 'Bahrain', 'BD': 'Bangladesh', 'BB': 'Barbados', 'BY': 'Belarus', 'BE': 'Belgium', 'BZ': 'Belize', 'BJ': 'Benin', 'BM': 'Bermuda', 'BT': 'Bhutan', 'BO': 'Bolivia (Plurinational State of)', 'BW': 'Botswana', 'BV': 'Bouvet Island', 'BR': 'Brazil', 'IO': 'British Indian Ocean Territory', 'BN': 'Brunei Darussalam', 'BG': 'Bulgaria', 'BF': 'Burkina Faso', 'BI': 'Burundi', 'CV': 'Cabo Verde', 'KH': 'Cambodia', 'CM': 'Cameroon', 'CA': 'Canada', 'KY': 'Cayman Islands', 'CF': 'Central African Republic', 'TD': 'Chad', 'CL': 'Chile', 'CN': 'China', 'CX': 'Christmas Island', 'CC': 'Cocos (Keeling) Islands', 'CO': 'Colombia', 'KM': 'Comoros', 'CG': 'Congo', 'CK': 'Cook Islands', 'CR': 'Costa Rica', 'CU': 'Cuba', 'CY': 'Cyprus', 'CZ': 'Czechia', 'CI': "Côte d'Ivoire", 'DK': 'Denmark', 'DJ': 'Djibouti', 'DM': 'Dominica', 'DO': 'Dominican Republic', 'EC': 'Ecuador', 'EG': 'Egypt', 'SV': 'El Salvador', 'GQ': 'Equatorial Guinea', 'EE': 'Estonia', 'SZ': 'Eswatini', 'ET': 'Ethiopia', 'FK': 'Falkland Islands (the) [Malvinas]', 'FO': 'Faroe Islands', 'FJ': 'Fiji', 'FI': 'Finland', 'FR': 'France', 'GF': 'French Guiana', 'PF': 'French Polynesia', 'TF': 'French Southern Territories', 'GA': 'Gabon', 'GM': 'Gambia', 'GE': 'Georgia', 'DE': 'Germany', 'GH': 'Ghana', 'GI': 'Gibraltar', 'GR': 'Greece', 'GL': 'Greenland', 'GD': 'Grenada', 'GP': 'Guadeloupe', 'GU': 'Guam', 'GT': 'Guatemala', 'GN': 'Guinea', 'GW': 'Guinea-Bissau', 'GY': 'Guyana', 'HT': 'Haiti', 'HM': 'Heard Island and McDonald Islands', 'VA': 'Holy See', 'HN': 'Honduras', 'HK': 'Hong Kong', 'HU': 'Hungary', 'IS': 'Iceland', 'IN': 'India', 'ID': 'Indonesia', 'IR': 'Iran (Islamic Republic of)', 'IQ': 'Iraq', 'IE': 'Ireland', 'IM': 'Isle of Man', 'IL': 'Israel', 'IT': 'Italy', 'JM': 'Jamaica', 'JP': 'Japan', 'JO': 'Jordan', 'KZ': 'Kazakhstan', 'KE': 'Kenya', 'KI': 'Kiribati', 'KP': "Korea (the Democratic People's Republic of)", 'KR': 'Korea (the Republic of)', 'KW': 'Kuwait', 'KG': 'Kyrgyzstan', 'LA': "Lao People's Democratic Republic", 'LV': 'Latvia', 'LB': 'Lebanon', 'LS': 'Lesotho', 'LR': 'Liberia', 'LY': 'Libya', 'LI': 'Liechtenstein', 'LT': 'Lithuania', 'LU': 'Luxembourg', 'MO': 'Macao', 'MG': 'Madagascar', 'MW': 'Malawi', 'MY': 'Malaysia', 'MV': 'Maldives', 'ML': 'Mali', 'MT': 'Malta', 'MH': 'Marshall Islands', 'MQ': 'Martinique', 'MR': 'Mauritania', 'MU': 'Mauritius', 'MX': 'Mexico', 'FM': 'Micronesia (Federated States of)', 'MD': 'Moldova (the Republic of)', 'MC': 'Monaco', 'MN': 'Mongolia', 'MS': 'Montserrat', 'MA': 'Morocco', 'MZ': 'Mozambique', 'MM': 'Myanmar', 'NA': 'Namibia', 'NR': 'Nauru', 'NP': 'Nepal', 'NL': 'Netherlands', 'NC': 'New Caledonia', 'NZ': 'New Zealand', 'NI': 'Nicaragua', 'NE': 'Niger', 'NG': 'Nigeria', 'NU': 'Niue', 'NF': 'Norfolk Island', 'MP': 'Northern Mariana Islands', 'NO': 'Norway', 'OM': 'Oman', 'PK': 'Pakistan', 'PW': 'Palau', 'PA': 'Panama', 'PG': 'Papua New Guinea', 'PY': 'Paraguay', 'PE': 'Peru', 'PH': 'Philippines', 'PN': 'Pitcairn', 'PL': 'Poland', 'PT': 'Portugal', 'PR': 'Puerto Rico', 'QA': 'Qatar', 'RO': 'Romania', 'RU': 'Russian Federation', 'RW': 'Rwanda', 'RE': 'Réunion', 'SH': 'Saint Helena, Ascension and Tristan da Cunha', 'KN': 'Saint Kitts and Nevis', 'LC': 'Saint Lucia', 'PM': 'Saint Pierre and Miquelon', 'VC': 'Saint Vincent and the Grenadines', 'WS': 'Samoa', 'SM': 'San Marino', 'ST': 'Sao Tome and Principe', 'SA': 'Saudi Arabia', 'SN': 'Senegal', 'SC': 'Seychelles', 'SL': 'Sierra Leone', 'SG': 'Singapore', 'SK': 'Slovakia', 'SB': 'Solomon Islands', 'SO': 'Somalia', 'ZA': 'South Africa', 'ES': 'Spain', 'LK': 'Sri Lanka', 'SD': 'Sudan', 'SR': 'Suriname', 'SJ': 'Svalbard and Jan Mayen', 'SE': 'Sweden', 'CH': 'Switzerland', 'SY': 'Syrian Arab Republic', 'TW': 'Taiwan (Province of China)', 'TJ': 'Tajikistan', 'TZ': 'Tanzania, United Republic of', 'TH': 'Thailand', 'TG': 'Togo', 'TK': 'Tokelau', 'TO': 'Tonga', 'TT': 'Trinidad and Tobago', 'TN': 'Tunisia', 'TR': 'Turkey', 'TM': 'Turkmenistan', 'TC': 'Turks and Caicos Islands', 'TV': 'Tuvalu', 'UG': 'Uganda', 'UA': 'Ukraine', 'AE': 'United Arab Emirates', 'GB': 'United Kingdom of Great Britain and Northern Ireland', 'UM': 'United States Minor Outlying Islands', 'US': 'United States of America', 'UY': 'Uruguay', 'UZ': 'Uzbekistan', 'VU': 'Vanuatu', 'VE': 'Venezuela (Bolivarian Republic of)', 'VN': 'Viet Nam', 'VG': 'Virgin Islands (British)', 'VI': 'Virgin Islands (U.S.)', 'WF': 'Wallis and Futuna', 'EH': 'Western Sahara', 'YE': 'Yemen', 'ZM': 'Zambia', 'ZW': 'Zimbabwe'}
 
-def get_weather(city, country, lang):
+def get_weather(city, lang):
     try:
-        response = requests.get("http://api.openweathermap.org/data/2.5/forecast",
-                 params={'q': '%s,%s' %(city, country.upper()), 'type': 'like', 'units': 'metric', 'APPID': app_id, 'lang': lang})
+        response = requests.get("http://api.openweathermap.org/data/2.5/find",
+                 params={'q': '%s' %city, 'type': 'like', 'units': 'metric', 'APPID': app_id, 'lang': lang})
         response.raise_for_status()
+        cities = [('%s (%s)' %(i['name'], (countries_ru if lang == 'ru' else countries_en)[i['sys']['country']]), i['id']) for i in response.json()['list']]
+        responses = [requests.get("http://api.openweathermap.org/data/2.5/forecast",
+                 params={'id': '%s' %i[1], 'type': 'like', 'units': 'metric', 'APPID': app_id, 'lang': lang}) for i in cities]
+        for i in responses:
+            i.raise_for_status()
+        weather_data = [(i1[0], i2.json()) for i1, i2 in zip(cities, responses)]
     except requests.exceptions.HTTPError:
-        return None
-    weather_data = json.loads(response.text)
+        return []
     return weather_data
 
 def get_language(chat_id):
@@ -106,28 +105,9 @@ def get_language(chat_id):
 def set_language(chat_id, lang):
     database = sqlite3.connect("database.db")
     try:
-        database.execute('insert into user_data (chat_id, lang, country) values (%s, "%s", "ru")' %(chat_id, lang))
+        database.execute('insert into user_data (chat_id, lang) values (%s, "%s")' %(chat_id, lang))
     except:
         database.execute('update user_data set lang="%s" where chat_id=%s' %(lang, chat_id))
-    database.commit()
-    database.close()
-
-def get_country(chat_id):
-    database = sqlite3.connect("database.db")
-    cur = database.cursor()
-    cur.execute('select * from user_data where chat_id=%s;'%chat_id)
-    data = cur.fetchone()
-    database.close()
-    if data:
-        return data[2]
-    return 'ru'
-
-def set_country(chat_id, country):
-    database = sqlite3.connect("database.db")
-    try:
-        database.execute('insert into user_data (chat_id, lang, country) values (%s, "ru", "%s")' %(chat_id, country))
-    except:
-        database.execute('update user_data set country="%s" where chat_id=%s' %(country, chat_id))
     database.commit()
     database.close()
 
@@ -137,14 +117,14 @@ def start(update: Update, context: CallbackContext):
         bot.send_message(chat_id=update.effective_chat.id, text='''
 Привет!
 Я - новый бот для простого и качественного определения погоды
-Просто введите название города или населённого пункта России
+Просто введите название города или населённого пункта
 Я покажу вам подробные данные о погоде в ближайшее время
 ''')
     else:
         bot.send_message(chat_id=update.effective_chat.id, text='''
 Hi!
 I'm a new bot for simple and high-quality weather determination
-Just input the location in Russia where you need to determine the weather
+Just input the location where you need to determine the weather
 I'll show you weather forecast for soon
 ''')
 
@@ -172,7 +152,6 @@ def show_help(update: Update, context: CallbackContext):
         bot.send_message(chat_id=update.effective_chat.id, text='''
 /start - Запуск бота
 /lang - Выбор языка
-/country - Выбор страны
 /ru - Установить русский язык
 /en - Установить английсикй язык
 /fact - Показать интересный факт
@@ -182,23 +161,11 @@ def show_help(update: Update, context: CallbackContext):
         bot.send_message(chat_id=update.effective_chat.id, text='''
 /start - Launch the bot
 /lang - Choose the language
-/country - Choose the country
 /ru - Change Russian language
 /en - Change English language
 /fact - Show an intresting fact
 /help - Show a list of commands
 ''')
-
-def country(update: Update, context: CallbackContext):
-    lang = get_language(update.effective_chat.id)
-    name_index = 0 if lang == 'ru' else 1
-    button_list = [[InlineKeyboardButton("%s (RU)%s" %(countries['ru'][name_index], countries['ru'][2]), callback_data="country_ru"),
-                    InlineKeyboardButton("%s (BY)%s" %(countries['by'][name_index], countries['by'][2]), callback_data="country_by")],
-                    [InlineKeyboardButton("%s (KZ)%s" %(countries['kz'][name_index], countries['kz'][2]), callback_data="country_kz"),
-                    InlineKeyboardButton("%s (KG)%s" %(countries['kg'][name_index], countries['kg'][2]), callback_data="country_kg")],
-                    [InlineKeyboardButton("%s (TJ)%s" %(countries['tj'][name_index], countries['tj'][2]), callback_data="country_tj"),
-                    InlineKeyboardButton("%s (AM)%s" %(countries['am'][name_index], countries['am'][2]), callback_data="country_am")]]
-    bot.send_message(chat_id=update.effective_chat.id, text=("Выберите вашу страну" if lang == 'ru' else "Choose your country"), reply_markup=InlineKeyboardMarkup(button_list))
 
 def button(update: Update, context: CallbackContext):
     lang = get_language(update.effective_chat.id)
@@ -209,27 +176,25 @@ def button(update: Update, context: CallbackContext):
         language_ru(update, context)
     if variant == 'language_en':
         language_en(update, context)
-    if variant.startswith('country'):
-        set_country(update.effective_chat.id, variant[variant.find('_') + 1:])
-        bot.send_message(chat_id=update.effective_chat.id, text=("Страна успешно выбрана%s" if lang == 'ru' else "Country has changed successfully%s") %countries[variant[variant.find('_') + 1:]][2])
     if variant == 'show_fact':
         show_fact(update, context)
 
 def start_weather(update: Update, context: CallbackContext):
-    lang = get_language(update.effective_chat.id)
-    country = get_country(update.effective_chat.id)
+    lang = get_language(update.effective_chat.id)    
     city = update.message.text.title()
-    weather_data = get_weather(city, country, lang)
-    if weather_data is None:
+    weather_datas = get_weather(city, lang)
+    if not weather_datas:
         button_list = [[InlineKeyboardButton(("Хочу интересный факт😁" if lang == 'ru' else "I want to know an interesting fact😁"), callback_data="show_fact")]]
-        bot.send_message(chat_id=update.effective_chat.id, text=("Населённый пункт *%s, %s (%s)*%s не найден🤨" if lang == 'ru' else "Location *%s, %s (%s)*%s not found🤨") %(city, countries[country][0 if lang == 'ru' else 1], country.upper(), countries[country][2]), parse_mode='markdown', reply_markup=InlineKeyboardMarkup(button_list))
+        bot.send_message(chat_id=update.effective_chat.id, text=("Населённый пункт *%s* не найден🤨" if lang == 'ru' else "Location *%s* not found🤨") %city, parse_mode='markdown', reply_markup=InlineKeyboardMarkup(button_list))
     else:
+      for weather_data in weather_datas:
         button_list = [[InlineKeyboardButton(("Хочу интересный факт😁" if lang == 'ru' else "I want to know an interesting fact😁"), callback_data="show_fact")]]
-        time_add = weather_data['city']['timezone'] // 3600
-        w = weather_data['list']
+        city = weather_data[0]
+        time_add = weather_data[1]['city']['timezone'] // 3600
+        w = weather_data[1]['list']
         t = time.gmtime()
         #bot.send_location(chat_id=update.effective_chat.id, latitude=weather_data['city']['coord']['lat'], longitude=weather_data['city']['coord']['lon'], horizontal_accuracy=1500) 
-        bot.send_message(chat_id=update.effective_chat.id, text=("Погода в *%s, %s (%s)*%s\nЧасовой пояс (UTC+%s) %02d:%02d" if lang == 'ru' else "Weather in *%s, %s (%s)*%s\nTimezone (UTC+%s) %02d:%02d") %(city, countries[country][0 if lang == 'ru' else 1], country.upper(), countries[country][2], time_add, (t.tm_hour + time_add) % 24, t.tm_min), parse_mode='markdown')
+        bot.send_message(chat_id=update.effective_chat.id, text=("Погода в *%s*\nЧасовой пояс (UTC+%s) %02d:%02d" if lang == 'ru' else "Weather in *%s*\nTimezone (UTC+%s) %02d:%02d") %(city, time_add, (t.tm_hour + time_add) % 24, t.tm_min), parse_mode='markdown')
         day = (time.time() // 3600 + time_add) // 24
         text = ''
         for i in range(len(w)):
@@ -260,7 +225,6 @@ def start_weather(update: Update, context: CallbackContext):
             bot.send_message(chat_id=update.effective_chat.id, text=('*Послезавтра*:\n%s' if lang == 'ru' else '*Day after tomorrow*:\n%s') %text, parse_mode='markdown', reply_markup=InlineKeyboardMarkup(button_list))
 updater.dispatcher.add_handler(CommandHandler('start', start))
 updater.dispatcher.add_handler(CommandHandler('lang', lang))
-updater.dispatcher.add_handler(CommandHandler('country', country))
 updater.dispatcher.add_handler(CommandHandler('ru', language_ru))
 updater.dispatcher.add_handler(CommandHandler('en', language_en))
 updater.dispatcher.add_handler(CommandHandler('fact', show_fact))

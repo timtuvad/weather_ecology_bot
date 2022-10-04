@@ -1,6 +1,5 @@
 start - Запуск бота/Launch the bot
 lang - Выбор языка/Choose the language
-country - Выбор страны/Choose the country
 ru - Установить русский язык
 en - Change English language
 fact - Показать интересный факт/Show an intresting fact
